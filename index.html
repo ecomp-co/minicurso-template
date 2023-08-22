@@ -1,222 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptBR">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" type=text/css href="styles.css">
-		<title>Curriculo</title>
+		<!--Define o uso do css como um arquivo separado-->
+		<link rel="stylesheet" href="style.css" />
+
+		<!--Colocar o icone da aba da pagina junto com o titulo-->
+		<link
+			rel="shortcut icon"
+			type="imagex/png"
+			href="./assets/bunny_icon.png"
+		/>
+
+		<!--Titulo da aba da pagina-->
+		<title>Pinguinando!</title>
 	</head>
-
 	<body>
-		<section id="comeco">
-			<div class="background">foto maneira</div>
-
-			<div class="card-voce">
-				<img
-					alt="Club Penguin feat Sr. Bosta"
-					src="./assets/profile.jpg"
-					class="imagem-voce"
-				/>
-
-				<div>resto icones-link</div>
-			</div>
-		</section>
-
-		<section id="sobremim">
-			<h1 class="section-title">SOBRE MIM</h1>
-
-			<div style="display: flex; justify-content: center">
-				<span class="sobremim-descricao"
-					>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-					minima praesentium voluptates quas! Quis deleniti qui obcaecati,
-					minima veritatis, hic eius error similique tenetur accusamus commodi,
-					eligendi nihil ipsa iste.</span
-				>
-			</div>
-		</section>
-
-		<hr />
-		<section id="experiencias" style="margin-bottom: 100px">
-			<h1 class="section-title">EXPERIENCIAS</h1>
-
-			<div class="display-experiencia">
-				<div class="card-experiencia">
-					<img
-						class="card-image-experiencia"
-						alt="Logo da Ecomp"
-						src="./assets/ecomp.jpeg"
-					/>
-					<div class="card-titulo">
-						<!--Titulo-->
-						<span style="font-weight: 800"
-							><strong>Empresa Júnior da Ecomp</strong></span
-						>
-						<br /><br />
-						<!--Descricao-->
-						<span>Descrição breve sobre a sua experiência na Ecomp</span>
+		<!--Header que eh aquela parte mais em cima com os links principais-->
+		<header class="header-wrapper">
+			<a href="#" class="header-links">Sobre mim</a>
+			<a href="supresa/parabens.html" class="header-links">Portifolio</a>
+			<a href="#" class="header-links">Trabalhos DINF</a>
+			<a href="#" class="header-links">Meu contato</a>
+		</header>
+		<!--Conteudo principal de toda a pagina-->
+		<main>
+			<div class="container">
+				<div class="sobre-mim-wrapper">
+					<div class="sobre-mim-coluna-1">
+						<img
+							alt="Puffle Branco Antigo"
+							src="./assets/profile.jpeg"
+							class="sobre-mim-coluna-1-foto"
+						/>
+						<span class="sobre-mim-coluna-1-nome">Pinguin do Jornal</span>
+						<span class="sobre-mim-coluna-1-titulo">Mestre de Card Jitsu</span>
 					</div>
-				</div>
+					<div class="sobre-mim-coluna-2">
+						<span>
+							<hr class="sobre-mim-hr" />
+							<span class="sobre-mim-destaque">Breve Resumo:</span>
+							A Lenda do Bruxo (a) - Segundo essa lenda, se no dia do Halloween
+							você for no Iceberg e
+							<span class="sobre-mim-destaque">gritar 100 vezes</span>
+							seguidas a palavra "Bruxo" você vai virar um bruxo e irá ganhar
+							poderes mágicos.
+							<hr class="sobre-mim-hr" />
+							<span class="sobre-mim-destaque">Formado em:</span>
+							BCC na Universidade Federal do Paraná em 2008.
+							<br />
+							<span class="sobre-mim-destaque">Cursos:</span>
+							Certificado de Programação de Assembly pelo CP.
+							<br />
+							<span class="sobre-mim-destaque">Interesses:</span> Internet das
+							Coisas e Club Penguin.
+							<hr class="sobre-mim-hr" />
 
-				<div class="card-experiencia">
-					<img
-						class="card-image-experiencia"
-						alt="Logo da Ecomp"
-						src="./assets/ecomp.jpeg"
-					/>
-					<div class="card-titulo">
-						<!--Titulo-->
-						<span style="font-weight: 800"
-							><strong>Empresa Júnior da Ecomp</strong></span
-						>
-						<br /><br />
-						<!--Descricao-->
-						<span>Descrição breve sobre a sua experiência na Ecomp</span>
-					</div>
-				</div>
+							<div id="sobre-mim-icones">
+								<a href="#">
+									<img
+										alt="Logo do Github"
+										src="./assets/icones/github.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Linkedin"
+										src="./assets/icones/linkedin.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Instagram"
+										src="./assets/icones/instagram.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Spotify"
+										src="./assets/icones/spotify.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Email"
+										style="width: 60px"
+										src="./assets/icones/email.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+							</div>
 
-				<div class="card-experiencia">
-					<img
-						class="card-image-experiencia"
-						alt="Logo da Ecomp"
-						src="./assets/ecomp.jpeg"
-					/>
-					<div class="card-titulo">
-						<!--Titulo-->
-						<span style="font-weight: 800"
-							><strong>Empresa Júnior da Ecomp</strong></span
-						>
-						<br /><br />
-						<!--Descricao-->
-						<span>Descrição breve sobre a sua experiência na Ecomp</span>
-					</div>
-				</div>
-
-				<div class="card-experiencia">
-					<img
-						class="card-image-experiencia"
-						alt="Logo da Ecomp"
-						src="./assets/ecomp.jpeg"
-					/>
-					<div class="card-titulo">
-						<!--Titulo-->
-						<span style="font-weight: 800"
-							><strong>Empresa Júnior da Ecomp</strong></span
-						>
-						<br /><br />
-						<!--Descricao-->
-						<span>Descrição breve sobre a sua experiência na Ecomp</span>
-					</div>
-				</div>
-
-				<div class="card-experiencia">
-					<img
-						class="card-image-experiencia"
-						alt="Logo da Ecomp"
-						src="./assets/ecomp.jpeg"
-					/>
-					<div class="card-titulo">
-						<!--Titulo-->
-						<span style="font-weight: 800"
-							><strong>Empresa Júnior da Ecomp</strong></span
-						>
-						<br /><br />
-						<!--Descricao-->
-						<span>Descrição breve sobre a sua experiência na Ecomp</span>
+							<hr class="sobre-mim-hr" />
+						</span>
 					</div>
 				</div>
 			</div>
-		</section>
-		<hr />
 
-		<section id="habilidades" style="margin-bottom: 100px">
-			<h1 class="section-title">HABILIDADES</h1>
-
-			<div class="display-habilidade">
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
+			<!--Resumo-->
+			<section id="resumo" class="container">
+				<div class="resumo-wrapper">
+					<div
+						style="
+							width: 400px;
+							display: flex;
+							align-items: center;
+							text-align: center;
+						"
+					>
+						<span
+							class="resumo-titulo"
+							style="
+								display: flex;
+								flex-direction: column;
+								justify-content: center;
+							"
+						>
+							&nbsp-
+							<span style="display: flex; color: #ffffff; align-items: center"
+								>R E S U M O</span
+							>
+							&nbsp-</span
+						>
+					</div>
+					<div>
+						<span class="resumo-texto"
+							>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Recusandae odit repellendus delectus voluptatem quisquam illo!
+							Accusantium quia repudiandae rerum exercitationem nam quasi
+							molestias, dignissimos fugiat repellat minus. Ad, eaque dicta.
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+							velit inventore quos atque. Excepturi iste ratione rerum
+							asperiores eaque ipsam aperiam odit culpa at debitis. Voluptate in
+							possimus quidem eos? Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Accusantium eum eligendi odit ut quaerat aperiam
+							doloremque suscipit tempora. Eum sapiente sed natus et laudantium
+							beatae corrupti ducimus suscipit ratione. Exercitationem? Lorem
+							ipsum dolor, sit amet consectetur adipisicing elit. Eaque dolore
+							dicta natus doloremque nulla repellendus sed impedit. Natus, quod
+							recusandae in neque nostrum corporis, suscipit commodi, eum
+							explicabo hic ipsa.
 						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
 					</div>
 				</div>
+			</section>
 
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
-						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
+			<hr class="hr-divisao" />
+
+			<!--Portifolio-->
+			<section id="Portifolio" class="container">
+				<div class="portifolio-wrapper">
+					<span class="portifolio-titulo">Portifolios</span>
+
+					<card class="portifolio-card">
+						<img
+							alt="5 Aniversario CP"
+							src="./assets/portifolio.webp"
+							class="portifolio-image"
+						/>
+					</card>
+				</div>
+			</section>
+
+			<hr class="hr-divisao" />
+
+			<!--Experiencias-->
+
+			<section id="Experiencias" class="container">
+				<div class="experiencias-wrapper">
+					<span class="experiencias-titulo"
+						>~ &nbsp;<span style="color: #ffffff">Experiências</span
+						>&nbsp;&nbsp;~</span
+					>
+
+					<div class="experiencias-display-cards">
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
 					</div>
 				</div>
+			</section>
 
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
-						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
+			<!--Skills-->
+
+			<hr class="hr-divisao" />
+
+			<section id="Skills" class="container">
+				<div class="experiencias-wrapper">
+					<span class="experiencias-titulo"
+						>~ &nbsp;<span style="color: #ffffff">Skills</span
+						>&nbsp;&nbsp;~</span
+					>
+
+					<div class="experiencias-display-cards">
+
+						<card class="skills-cards">
+							<img
+								alt="Linguagem C"
+								src="./assets/c.png"
+								class="skills-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Programador AVANÇADO de C, C#</strong>
+						</card>
+
 					</div>
 				</div>
-
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
-						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
-					</div>
-				</div>
-
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
-						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
-					</div>
-				</div>
-
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
-						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
-					</div>
-				</div>
-
-				<div class="card-habilidade">
-					<div class="card-titulo-habilidade">
-						<!--Titulo-->
-						<span style="font-weight: 800">
-							<strong>Programar em Scratch</strong>
-						</span>
-						<br /><br />
-						<!--Descricao-->
-						<span>Nivel da Habilidade: medio</span>
-					</div>
-				</div>
-			</div>
-		</section>
+			</section>
+		</main>
+		<!--Rodape da pagina, a gente nao vai usar, mas em casos...-->
+		<footer class="footer-wrapper">
+			Feito por
+			<a href="https://github.com/tuildes" class="footer-link"
+				>Gustavo Frehse</a
+			>
+			para o Mini-Curso da
+			<a href="https://ecomp.co/" class="footer-link">Ecomp</a>.
+		</footer>
 	</body>
 </html>
